@@ -18,8 +18,8 @@ function BlogPost() {
 
       <Link to="/blog">⬅️ Back</Link>
 
-      <h2>{post.title}</h2>
-      <span>✒️{post.author}</span>
+      <h2>Post: {post.title}</h2>
+      <small>Creado por: ✒️{post.author}</small>
       <p>{post.content}</p>
     </>
   );

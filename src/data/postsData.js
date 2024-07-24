@@ -1,38 +1,34 @@
 export const posts = [
   {
     id: 1,
-    slug: "hello-world",
-    title: "Hello, World!",
+    title: "Recetas de cocina, para todos los gustos",
+    slug: "cooking-recipes",
     author: "Alice",
-    content: "Hello, World!",
+    content:
+      "Las mejores recetas de cocina, para todos los gustos y bolsillos. ¡No te las pierdas!",
   },
   {
     id: 2,
-    slug: "lorem-ipsum",
-    title: "Lorem Ipsum",
+    title: "Mejores smartphones 2024",
+    slug: "best-smartphones-2024",
     author: "Bob",
-    content: "Lorem Ipsum",
+    content:
+      "Los mejores smartphones del 2024, para todos los gustos y bolsillos. ¡No te los pierdas!s",
   },
   {
     id: 3,
-    slug: "dolor-sit-amet",
-    title: "Dolor Sit Amet",
-    author: "Charlie",
-    content: "Dolor Sit Amet",
+    title: "Las mejores series de Netflix",
+    slug: "best-netflix-series",
+    author: "Alice",
+    content:
+      "Las mejores series de Netflix, para todos los gustos y bolsillos. ¡No te las pierdas!",
   },
   {
     id: 4,
-    slug: "consectetur-adipiscing-elit",
-    title: "Consectetur Adipiscing Elit",
-    author: "David",
-    content: "Consectetur Adipiscing Elit",
-  },
-  { id: 5, slug: "sed-do-eiusmod", title: "Sed Do Eiusmod", author: "Eve" },
-  {
-    id: 6,
-    slug: "tempor-incididunt-ut-labore",
-    title: "Tempor Incididunt Ut Labore",
-    author: "Frank",
-    content: "Tempor Incididunt Ut Labore",
+    title: "Los mejores destinos para viajar en 2024",
+    slug: "best-travel-destinations-2024",
+    author: "Alice",
+    content:
+      "Los mejores destinos para viajar en 2024, para todos los gustos y bolsillos. ¡No te los pierdas!",
   },
 ];
