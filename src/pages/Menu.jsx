@@ -5,6 +5,8 @@ function Menu() {
     { to: "/", label: "Home" },
     { to: "/blog", label: "Blog" },
     { to: "/profile", label: "Profile" },
+    { to: "/login", label: "Login" },
+    { to: "/logout", label: "Logout" },
   ];
 
   return (
