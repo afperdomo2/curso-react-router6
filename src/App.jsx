@@ -8,6 +8,7 @@ import { LogoutPage } from "./pages/LogoutPage";
 import { Menu } from "./pages/Menu";
 import { ProfilePage } from "./pages/ProfilePage";
 import { AuthProvider } from "./security/AuthProvider";
+import { AuthRoute } from "./security/AuthRoute";
 
 function App() {
   return (
@@ -23,8 +24,22 @@ function App() {
           </Route>
 
           <Route path="/login" element={<LoginPage />} />
-          <Route path="/logout" element={<LogoutPage />} />
-          <Route path="/profile" element={<ProfilePage />} />
+          <Route
+            path="/logout"
+            element={
+              <AuthRoute>
+                <LogoutPage />
+              </AuthRoute>
+            }
+          />
+          <Route
+            path="/profile"
+            element={
+              <AuthRoute>
+                <ProfilePage />
+              </AuthRoute>
+            }
+          />
 
           <Route path="*" element={<p>Not Found</p>} />
         </Routes>
